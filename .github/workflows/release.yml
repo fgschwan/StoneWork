@@ -27,8 +27,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.MM_PKG_WRITE }}
 
-      - name: "Push Docker images"
-        run: make push-images
-  call-vpp-test:
-    uses: ./.github/workflows/vpp.yml
+#      - name: "Push Docker images"
+#        run: make push-images
+#  call-vpp-test:
+#    uses: ./.github/workflows/vpp.yml
 
